@@ -1,0 +1,43 @@
+body {
+	font-family: "Lucida Grande";
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	border: 1px solid #ddd;
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
+	width: 300px;
+}
+li .key {
+	width: 150px;
+	display: inline-block;
+	text-align: right;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+li:nth-child(2n+1) {
+	background-color: #ddd;
+}
+
+.gimme {
+	margin-top: 10px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 20px;
+	transition: all 0.5s;
+}
+
+.gimme:hover {
+	background-color: #ddd;
+	cursor: pointer;
+}
+
+.value {
+	width: 100px;
+	display: inline-block;
+}
